@@ -20,7 +20,7 @@ A compact block at the top. Auditors look here first to confirm the exercise act
 - **Participants** — name and role for each (e.g., "Sam Rivera, CTO"). This is what makes it defensible that the right people were in the room.
 - **Duration** — measured from the session (start and end time), never estimated
 - **Scenario** — one-line summary
-- **Exercise type** — tabletop (discussion-based); if an AI assistant helped run it, say so and name it, e.g. "AI-assisted (Claude)"
+- **Exercise type** — tabletop (discussion-based); if an AI assistant helped run it, say so and name it, e.g. "AI-assisted (name of the tool)"
 
 In readiness mode, a single line ("Date / who was there / scenario") is plenty.
 

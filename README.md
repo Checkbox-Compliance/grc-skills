@@ -1,8 +1,8 @@
 # GRC Skills
 
-Skills for doing GRC work with Claude, from Checkbox Compliance.
+Skills for doing GRC work with an AI agent, from Checkbox Compliance.
 
-Each folder is one skill: a `SKILL.md` that Claude reads before it starts, plus any references the skill needs. They were written by a former SOC 2 auditor, so they hold to what an auditor would credit - nothing goes on the record unless someone confirmed it, and the judgment calls stay with a person.
+Each folder is one skill: a `SKILL.md` that the agent reads before it starts, plus any references the skill needs. They were written by a former SOC 2 auditor, so they hold to what an auditor would credit - nothing goes on the record unless someone confirmed it, and the judgment calls stay with a person.
 
 ## What's here
 
@@ -13,7 +13,7 @@ Each folder is one skill: a `SKILL.md` that Claude reads before it starts, plus 
 
 ## Using a skill
 
-In Claude Code, copy a skill's folder into `~/.claude/skills/` (or `.claude/skills/` in your project). In the Claude apps, zip the folder and upload it as a skill in settings.
+If your agent supports the `SKILL.md` skill format, add the folder to its skills directory or upload it as a skill; your agent's docs say where. If it doesn't, give it the folder's `SKILL.md` and `references/` files as instructions at the start of the conversation. The skills don't depend on any one agent or model.
 
 ## Ground rules
 

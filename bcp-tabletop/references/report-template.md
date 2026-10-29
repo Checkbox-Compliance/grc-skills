@@ -20,7 +20,7 @@ A compact block at the top; auditors look here first.
 - **Participants** — name and role for each.
 - **Duration** — measured from the session (start and end time), never estimated
 - **Scenario** — one-line summary of the disruption exercised.
-- **Exercise type** — tabletop (discussion-based); if an AI assistant helped run it, say so and name it, e.g. "AI-assisted (Claude)".
+- **Exercise type** — tabletop (discussion-based); if an AI assistant helped run it, say so and name it, e.g. "AI-assisted (name of the tool)".
 - **Critical functions exercised, with RTO / RPO** — the functions the scenario tested and the recovery objectives the team was held against (even if those objectives were established for the first time during the session — note that, because "objectives were undefined before this exercise" is itself a finding).
 
 In readiness mode, a single line (date / who / scenario) is plenty.
